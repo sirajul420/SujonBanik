@@ -145,13 +145,16 @@ header{
         border-top-left-radius: unset;
     }
     .abouth{
-        font-size: 50px;
+        font-size: 35px;
     }
     .footer-link ul li a{
         padding: 10px 0;
     }
     .footer-link ul{
         flex-direction: column;
+    }
+    .service-heading{
+       font-size: 35px;
     }
     .bgskyblue h1{
         font-size: 30px;
@@ -165,5 +168,8 @@ header{
     }
     .bgskyblue-bg{
         display: none;
+    }
+    .bgskyblue-heading{
+        font-size: 35px;
     }
 }
