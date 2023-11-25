@@ -43,6 +43,22 @@ header{
 .abouth{
     font-size: 65px;
 }
+/* Footer */
+.footer-logo{
+    width: 40px;
+    height: 40px;
+}
+.footer-link ul{
+    display: flex;
+    list-style: none;
+}
+.footer-link ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
 /* Responsive */
 @media screen and (max-width:992px) {
     header{
@@ -55,7 +71,7 @@ header{
         margin-top: 150px;
     }
     .margin h1{
-        font-size: 65px;
+        font-size: 40px;
     }
     .margin{
         margin-top: 100px;
@@ -69,5 +85,8 @@ header{
     .imgFrame img{
         width: 100%;
         border-top-left-radius: unset;
+    }
+    .footer-link ul{
+        flex-direction: column;
     }
 }
