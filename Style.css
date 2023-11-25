@@ -66,6 +66,7 @@ header{
 }
 .section1{
     border: 1px solid #C5112F;
+    position: relative;
 }
 .section1 a{
     text-decoration: none;
@@ -76,6 +77,45 @@ header{
 .heading-service{
     color: #212529;
     font-weight: normal;
+}
+.service-bg{
+    width: 80px;
+    height: 60px;
+    background-color: orangered;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-right-radius: 50%;
+}
+.serivce-content{
+    position: relative;
+}
+.bgskyblue-bg{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:skyblue;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.bgskyblue-bg1{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    background-color:skyblue;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.bgskyblue{
+    background-color: skyblue;
+    padding: 150px 50px;
+}
+.bgskyblue h1{
+    font-size: 60px;
 }
 /* Responsive */
 @media screen and (max-width:992px) {
@@ -112,5 +152,18 @@ header{
     }
     .footer-link ul{
         flex-direction: column;
+    }
+    .bgskyblue h1{
+        font-size: 30px;
+    }
+    .bgskyblue{
+        background-color: skyblue;
+        padding: 100px 10px;
+    }
+    .bgskyblue-bg1{
+        display: none;
+    }
+    .bgskyblue-bg{
+        display: none;
     }
 }
